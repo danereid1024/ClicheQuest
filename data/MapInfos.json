@@ -2,7 +2,7 @@
 null,
 {"id":1,"expanded":true,"name":"World Map","order":2,"parentId":0,"scrollX":973.1999999999999,"scrollY":512.4},
 {"id":2,"expanded":false,"name":"Castle","order":3,"parentId":1,"scrollX":451,"scrollY":316},
-{"id":3,"expanded":true,"name":"Port Town","order":4,"parentId":1,"scrollX":517.6,"scrollY":600},
+{"id":3,"expanded":true,"name":"Port Town","order":4,"parentId":1,"scrollX":973.1999999999999,"scrollY":512.4},
 {"id":4,"expanded":false,"name":"INN","order":5,"parentId":3,"scrollX":436,"scrollY":346.4},
 {"id":5,"expanded":false,"name":"Item Shop","order":6,"parentId":3,"scrollX":436,"scrollY":346.4},
 {"id":6,"expanded":false,"name":"Weapon/Armor Shop","order":7,"parentId":3,"scrollX":436,"scrollY":346.4},
