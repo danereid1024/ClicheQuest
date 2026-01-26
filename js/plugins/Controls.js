@@ -68,4 +68,95 @@ Scene_Map.prototype.updateDestination = function() {
     }
     _updateGamepadState.call(this, gamepad);
   };
+
+// --------------------------------------------------
+// Disable map touch movement
+// --------------------------------------------------
+const _Scene_Map_processMapTouch = Scene_Map.prototype.processMapTouch;
+Scene_Map.prototype.processMapTouch = function() {
+// Do nothing – completely disables touch movement
+};
+
+// --------------------------------------------------
+// Disable touch-based OK / Cancel input
+// --------------------------------------------------
+TouchInput._onTrigger = function() {
+// Prevent left-click / tap confirm everywhere
+};
+
+TouchInput._onCancel = function() {
+// Prevent right-click / two-finger cancel everywhere
+};
+
+// --------------------------------------------------
+// Disable long press / move by touch
+// --------------------------------------------------
+TouchInput._onMove = function() {
+// Prevent dragging or movement
+};
+
+// --------------------------------------------------
+// Hide touch UI buttons (mobile buttons)
+// --------------------------------------------------
+const _Scene_Map_createButtons = Scene_Map.prototype.createButtons;
+Scene_Map.prototype.createButtons = function() {
+
+};
+
+Scene_Menu.prototype.createButtons = function() {
+
+};
+
+Scene_Battle.prototype.createButtons = function() {
+
+};
+
+Scene_Shop.prototype.createButtons = function() {
+
+};
+
+Scene_Equip.prototype.createButtons = function() {
+
+};
+
+Scene_File.prototype.createButtons = function() {
+
+};
+
+Scene_GameEnd.prototype.createButtons = function() {
+
+};
+
+Scene_Gameover.prototype.createButtons = function() {
+
+};
+
+Scene_Item.prototype.createButtons = function() {
+
+};
+
+Scene_Load.prototype.createButtons = function() {
+
+};
+
+Scene_Save.prototype.createButtons = function() {
+
+};
+
+Scene_Name.prototype.createButtons = function() {
+
+};
+
+Scene_Options.prototype.createButtons = function() {
+
+};
+
+Scene_Status.prototype.createButtons = function() {
+
+};
+
+Scene_Skill.prototype.createButtons = function() {
+
+};
+
 })();

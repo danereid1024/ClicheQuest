@@ -194,5 +194,12 @@ Scene_Shop.prototype.categoryWindowRect = function() {
     return new Rectangle(wx, wy, ww, wh);
 };
 
+Scene_GameEnd.prototype.commandWindowRect = function() {
+    const ww = 240;
+    const wh = this.calcWindowHeight(5, true); // ← taller
+    const wx = (Graphics.boxWidth - ww) / 2;
+    const wy = (Graphics.boxHeight - wh) / 2;
+    return new Rectangle(wx, wy, ww, wh);
+  };
 
 })();

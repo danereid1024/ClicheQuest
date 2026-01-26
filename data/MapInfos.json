@@ -1,17 +1,17 @@
 [
 null,
 {"id":1,"expanded":true,"name":"World Map","order":2,"parentId":0,"scrollX":973.1999999999999,"scrollY":512.4},
-{"id":2,"expanded":false,"name":"Castle","order":3,"parentId":1,"scrollX":451,"scrollY":316},
+{"id":2,"expanded":false,"name":"Castle","order":3,"parentId":1,"scrollX":973.1999999999999,"scrollY":510},
 {"id":3,"expanded":true,"name":"Port Town","order":4,"parentId":1,"scrollX":973.1999999999999,"scrollY":512.4},
 {"id":4,"expanded":false,"name":"INN","order":5,"parentId":3,"scrollX":436,"scrollY":346.4},
 {"id":5,"expanded":false,"name":"Item Shop","order":6,"parentId":3,"scrollX":436,"scrollY":346.4},
 {"id":6,"expanded":false,"name":"Weapon/Armor Shop","order":7,"parentId":3,"scrollX":436,"scrollY":346.4},
 {"id":7,"expanded":false,"name":"House","order":8,"parentId":3,"scrollX":436,"scrollY":319.2},
-{"id":8,"expanded":true,"name":"Cave","order":9,"parentId":1,"scrollX":1286.4,"scrollY":2253.6},
-{"id":9,"expanded":true,"name":"Cave","order":10,"parentId":8,"scrollX":1248.8,"scrollY":777.6},
-{"id":10,"expanded":true,"name":"Cave","order":11,"parentId":9,"scrollX":1249.6,"scrollY":1616},
-{"id":11,"expanded":false,"name":"Cave","order":12,"parentId":10,"scrollX":436,"scrollY":346.4},
-{"id":12,"expanded":false,"name":"Evil Castle","order":13,"parentId":1,"scrollX":436,"scrollY":346.4},
+{"id":8,"expanded":true,"name":"Cave","order":9,"parentId":1,"scrollX":982.8,"scrollY":2253.6},
+{"id":9,"expanded":true,"name":"Cave","order":10,"parentId":8,"scrollX":1249.2,"scrollY":777.5999999999999},
+{"id":10,"expanded":true,"name":"Cave","order":11,"parentId":9,"scrollX":1249.2,"scrollY":1616.3999999999999},
+{"id":11,"expanded":false,"name":"Cave","order":12,"parentId":10,"scrollX":973.1999999999999,"scrollY":510},
+{"id":12,"expanded":false,"name":"Evil Castle","order":13,"parentId":1,"scrollX":973.1999999999999,"scrollY":510},
 {"id":13,"expanded":false,"name":"Character Creation","order":1,"parentId":0,"scrollX":973.1999999999999,"scrollY":512.4,"quick":false},
 {"id":14,"expanded":false,"name":"Credits","order":14,"parentId":0,"scrollX":436,"scrollY":277.6,"quick":false}
 ]

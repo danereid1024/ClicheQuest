@@ -25,11 +25,11 @@
          return new Rectangle(wx, wy, ww, wh);
      };
 
-     Window_PartyCommand.prototype.windowHeight = function() {
+Window_PartyCommand.prototype.windowHeight = function() {
          return 200;
      };
 
-     Scene_Battle.prototype.partyCommandWindowRect = function() {
+Scene_Battle.prototype.partyCommandWindowRect = function() {
     const ww = 192;
     const wh = 230;
     const wx = this.isRightInputMode() ? Graphics.boxWidth - ww : 0;
