@@ -103,9 +103,9 @@ Scene_Skill.prototype.skillTypeWindowRect = function() {
     Window_MenuCommand.prototype.itemHeight = function() {
         return 100;
     }
-    Window_MenuStatus.prototype.itemHeight = function() {
-        return 100;
-    }
+    // Window_MenuStatus.prototype.itemHeight = function() {
+    //     return 100;
+    // }
 
     Window_ShopBuy.prototype.itemHeight = function() {
         return 100;
