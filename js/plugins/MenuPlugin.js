@@ -38,7 +38,7 @@ Scene_Skill.prototype.skillTypeWindowRect = function() {
         const ww = 200;
         const wh = 200;
         const wx = 0;
-        const wy = 850 + h1 + h2;
+        const wy = Graphics.boxHeight - wh;
         return new Rectangle(wx, wy, ww, wh);
     };
 

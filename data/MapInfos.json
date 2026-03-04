@@ -1,7 +1,7 @@
 [
 null,
-{"id":1,"expanded":true,"name":"World Map","order":2,"parentId":0,"scrollX":982.8,"scrollY":553.8},
-{"id":2,"expanded":false,"name":"Castle","order":3,"parentId":1,"scrollX":973.1999999999999,"scrollY":511.79999999999995},
+{"id":1,"expanded":true,"name":"World Map","order":2,"parentId":0,"scrollX":982.909090909091,"scrollY":553.6363636363636},
+{"id":2,"expanded":false,"name":"Castle","order":3,"parentId":1,"scrollX":884.7272727272727,"scrollY":465.2727272727273},
 {"id":3,"expanded":true,"name":"Port Town","order":4,"parentId":1,"scrollX":390.59999999999997,"scrollY":504.59999999999997},
 {"id":4,"expanded":false,"name":"INN","order":5,"parentId":3,"scrollX":415.79999999999995,"scrollY":504.59999999999997},
 {"id":5,"expanded":false,"name":"Item Shop","order":6,"parentId":3,"scrollX":436,"scrollY":346.4},
