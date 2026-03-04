@@ -1,8 +1,8 @@
 [
 null,
-{"id":1,"expanded":true,"name":"World Map","order":2,"parentId":0,"scrollX":982.909090909091,"scrollY":553.6363636363636},
-{"id":2,"expanded":false,"name":"Castle","order":3,"parentId":1,"scrollX":884.7272727272727,"scrollY":465.2727272727273},
-{"id":3,"expanded":true,"name":"Port Town","order":4,"parentId":1,"scrollX":390.59999999999997,"scrollY":504.59999999999997},
+{"id":1,"expanded":true,"name":"World Map","order":2,"parentId":0,"scrollX":983.1111111111111,"scrollY":553.3333333333334},
+{"id":2,"expanded":false,"name":"Castle","order":3,"parentId":1,"scrollX":507.55555555555554,"scrollY":314.22222222222223},
+{"id":3,"expanded":true,"name":"Port Town","order":4,"parentId":1,"scrollX":507.55555555555554,"scrollY":302.6666666666667},
 {"id":4,"expanded":false,"name":"INN","order":5,"parentId":3,"scrollX":415.79999999999995,"scrollY":504.59999999999997},
 {"id":5,"expanded":false,"name":"Item Shop","order":6,"parentId":3,"scrollX":436,"scrollY":346.4},
 {"id":6,"expanded":false,"name":"Weapon/Armor Shop","order":7,"parentId":3,"scrollX":973.1999999999999,"scrollY":521.4},
@@ -12,6 +12,6 @@ null,
 {"id":10,"expanded":true,"name":"Cave","order":11,"parentId":9,"scrollX":1250.3999999999999,"scrollY":1617},
 {"id":11,"expanded":false,"name":"Cave","order":12,"parentId":10,"scrollX":973.1999999999999,"scrollY":510},
 {"id":12,"expanded":false,"name":"Evil Castle","order":13,"parentId":1,"scrollX":415.79999999999995,"scrollY":504.59999999999997},
-{"id":13,"expanded":false,"name":"Character Creation","order":1,"parentId":0,"scrollX":973.1999999999999,"scrollY":511.79999999999995,"quick":false},
+{"id":13,"expanded":false,"name":"Character Creation","order":1,"parentId":0,"scrollX":507.55555555555554,"scrollY":314.22222222222223,"quick":false},
 {"id":14,"expanded":false,"name":"Credits","order":14,"parentId":0,"scrollX":436,"scrollY":277.6,"quick":false}
 ]
