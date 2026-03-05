@@ -17,6 +17,13 @@
         }
     };
 
+    Scene_Map.prototype.processMapTouch = function() {
+        return;
+    };
+
+    TouchInput.initialize = function() {
+        this.clear();
+    };
 
 Scene_MenuBase.prototype.createBackground = function() {
     this._backgroundFilter = new PIXI.filters.BlurFilter();
