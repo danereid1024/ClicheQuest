@@ -1,7 +1,15 @@
+ //==============================================================================
+// RPG Maker MZ - ControlsPlugin.js
+//==============================================================================
+
 /*:
- * @target MZ
- * @plugindesc Tracks last input device and sets switch #20
- */
+* @target MZ
+* @plugindesc Game Controls
+* @author Dane Reid
+*
+* @help
+* This plugin changes the controls of the game
+*/
 
 (() => {
 

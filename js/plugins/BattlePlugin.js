@@ -1,3 +1,16 @@
+ //==============================================================================
+// RPG Maker MZ - BattlePlugin.js
+//==============================================================================
+
+/*:
+* @target MZ
+* @plugindesc Battle Plugin UI change
+* @author Dane Reid
+*
+* @help
+* This plugin changes the UI of Scene Battle
+*/
+ 
  (() => {
      Scene_Battle.prototype.statusWindowRect = function() {
          const extra = 10;
