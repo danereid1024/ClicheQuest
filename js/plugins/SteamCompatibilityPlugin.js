@@ -33,23 +33,23 @@
         Hide_Mouse_Scene_Base.call(this)
         hideMouse()
     }
-const _Scene_Boot_start = Scene_Boot.prototype.start;
+const _Scene_Boot_start = Scene_Boot.prototype.start
     Scene_Boot.prototype.start = function() {
-        _Scene_Boot_start.call(this);
+        _Scene_Boot_start.call(this)
 
-        const win = nw.Window.get();
+        const win = nw.Window.get()
 
-        const screenWidth = window.screen.width;
-        const screenHeight = window.screen.height;
+        const screenWidth = window.screen.width
+        const screenHeight = window.screen.height
 
-        const width = win.width;
-        const height = win.height;
+        const width = win.width
+        const height = win.height
 
-        const x = (screenWidth - width) / 2;
-        const y = (screenHeight - height) / 2;
+        const x = Math.floor((screenWidth - width) / 2)
+        const y = Math.floor((screenHeight - height) / 2)
 
-        win.moveTo(x, y);
-    };
+        win.moveTo(x, y)
+    }
     
     const Full_Screen_Boot = Scene_Boot.prototype.start
     Scene_Boot.prototype.start = function() {
@@ -61,57 +61,57 @@ const _Scene_Boot_start = Scene_Boot.prototype.start;
     }
 
         Window_Base.prototype.translucentOpacity = function() {
-        return 255;
-    };
+        return 255
+    }
 
     Window_Base.prototype.setBackgroundType = function(type) {
         if (type === 0) {
-            this.opacity = 255;
+            this.opacity = 255
         } else {
-            this.opacity = 255;
+            this.opacity = 255
         }
         if (type === 1) {
-            this.showBackgroundDimmer();
+            this.showBackgroundDimmer()
         } else {
-            this.hideBackgroundDimmer();
+            this.hideBackgroundDimmer()
         }
-    };
+    }
 
     Scene_Map.prototype.processMapTouch = function() {
-        return;
-    };
+        return
+    }
 
     TouchInput.initialize = function() {
-        this.clear();
-    };
+        this.clear()
+    }
 
 
     
 Scene_MenuBase.prototype.createBackground = function() {
-    this._backgroundFilter = new PIXI.filters.BlurFilter();
-    this._backgroundSprite = new Sprite();
-    this._backgroundSprite.bitmap = SceneManager.backgroundBitmap();
-    this._backgroundSprite.filters = [this._backgroundFilter];
-    this.addChild(this._backgroundSprite);
-    this.setBackgroundOpacity(255);
-};
+    this._backgroundFilter = new PIXI.filters.BlurFilter()
+    this._backgroundSprite = new Sprite()
+    this._backgroundSprite.bitmap = SceneManager.backgroundBitmap()
+    this._backgroundSprite.filters = [this._backgroundFilter]
+    this.addChild(this._backgroundSprite)
+    this.setBackgroundOpacity(255)
+}
 
-  const alias_createButtons = Scene_Map.prototype.createButtons;
+  const alias_createButtons = Scene_Map.prototype.createButtons
   Scene_Map.prototype.createButtons = function() {
-    alias_createButtons.call(this);
+    alias_createButtons.call(this)
 
     if (this._button) {
-      this._button.scale.x = 2; // Increase width scale
-      this._button.scale.y = 2; // Increase height scale
+      this._button.scale.x = 2 
+      this._button.scale.y = 2 
     }
-  };
+  }
 
   document.addEventListener("visibilitychange", () => {
         if (document.hidden) {
-            SceneManager.stop();
+            SceneManager.stop()
         } else {
-            SceneManager.resume();
+            SceneManager.resume()
         }
-    });
+    })
         
-    })();
+    })()
