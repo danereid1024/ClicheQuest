@@ -7,5 +7,8 @@ var $plugins =
 {"name":"ControlsPlugin","status":true,"description":"Game Controls","parameters":{}},
 {"name":"EffekseerForRPGMakerMZ_Ex","status":true,"description":"Effekseer Extended plugin v1.70e - 1.05","parameters":{"InstanceMaxCount":"10000","SquareMaxCount":"10000","DistortionEnabled":"false"}},
 {"name":"MenuPlugin","status":true,"description":"Menu Plugin UI change","parameters":{}},
-{"name":"SteamCompatibilityPlugin","status":true,"description":"Steam Compatiblity","parameters":{}}
+{"name":"SteamCompatibilityPlugin","status":true,"description":"Steam Compatiblity","parameters":{}},
+{"name":"SteamAchievements","status":true,"description":"","parameters":{}},
+{"name":"SteamLink","status":false,"description":"Link Rpg maker MZ with Steam!","parameters":{}},
+{"name":"SteamLinkCommandsAddon","status":false,"description":"SteamLink Commands Addon","parameters":{"trueVariable":"12"}}
 ];

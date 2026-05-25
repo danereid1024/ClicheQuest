@@ -65,7 +65,7 @@ Scene_Skill.prototype.skillTypeWindowRect = function() {
 
     Scene_Menu.prototype.commandWindowRect = function() {
         const ww = 400
-        const wh = this.commandWindowHeight()
+        const wh = 424
         const wx = 0
         const wy = 5
         return new Rectangle(wx, wy, ww, wh)
@@ -154,14 +154,14 @@ Scene_Skill.prototype.skillTypeWindowRect = function() {
         return 100
     }
     Window_Command.prototype.itemHeight = function() {
-        return 100
+        return 75
     }
     Window_EquipStatus.prototype.itemHeight = function() {
-        return 100
+        return 75
     }
     
     Window_EquipCommand.prototype.itemHeight = function() {
-        return 100
+        return 75
     }
     Window_EquipSlot.prototype.itemHeight = function() {
         return 100

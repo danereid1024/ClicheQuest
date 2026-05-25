@@ -11,28 +11,28 @@
 * This plugin makes Cliche Quest compatible for Steam
 */
 (() => { 
-    function hideMouse() {
-        document.body.style.cursor = "none"
-        document.documentElement.style.cursor = "none"
+    // function hideMouse() {
+    //     document.body.style.cursor = "none"
+    //     document.documentElement.style.cursor = "none"
 
-        const canvas = document.getElementById("gameCanvas")
+    //     const canvas = document.getElementById("gameCanvas")
 
-        if (canvas) {
-            canvas.style.cursor = "none"
-        }
-    }
+    //     if (canvas) {
+    //         canvas.style.cursor = "none"
+    //     }
+    // }
 
-    const Hide_Mouse_Scene_Boot = Scene_Boot.prototype.start
-    Scene_Boot.prototype.start = function() {
-        Hide_Mouse_Scene_Boot.call(this)
-        hideMouse()
-    }
+    // const Hide_Mouse_Scene_Boot = Scene_Boot.prototype.start
+    // Scene_Boot.prototype.start = function() {
+    //     Hide_Mouse_Scene_Boot.call(this)
+    //     hideMouse()
+    // }
 
-    const Hide_Mouse_Scene_Base = Scene_Base.prototype.start
-    Scene_Base.prototype.start = function() {
-        Hide_Mouse_Scene_Base.call(this)
-        hideMouse()
-    }
+    // const Hide_Mouse_Scene_Base = Scene_Base.prototype.start
+    // Scene_Base.prototype.start = function() {
+    //     Hide_Mouse_Scene_Base.call(this)
+    //     hideMouse()
+    // }
 const _Scene_Boot_start = Scene_Boot.prototype.start
     Scene_Boot.prototype.start = function() {
         _Scene_Boot_start.call(this)
@@ -77,13 +77,13 @@ const _Scene_Boot_start = Scene_Boot.prototype.start
         }
     }
 
-    Scene_Map.prototype.processMapTouch = function() {
-        return
-    }
+    // Scene_Map.prototype.processMapTouch = function() {
+    //     return
+    // }
 
-    TouchInput.initialize = function() {
-        this.clear()
-    }
+    // TouchInput.initialize = function() {
+    //     this.clear()
+    // }
 
 
     
