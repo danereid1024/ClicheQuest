@@ -9,6 +9,6 @@ var $plugins =
 {"name":"MenuPlugin","status":true,"description":"Menu Plugin UI change","parameters":{}},
 {"name":"SteamCompatibilityPlugin","status":true,"description":"Steam Compatiblity","parameters":{}},
 {"name":"SteamAchievements","status":true,"description":"","parameters":{}},
-{"name":"SteamLink","status":false,"description":"Link Rpg maker MZ with Steam!","parameters":{}},
-{"name":"SteamLinkCommandsAddon","status":false,"description":"SteamLink Commands Addon","parameters":{"trueVariable":"12"}}
+{"name":"SteamLink","status":true,"description":"Link Rpg maker MZ with Steam!","parameters":{}},
+{"name":"SteamLinkCommandsAddon","status":true,"description":"SteamLink Commands Addon","parameters":{"trueVariable":"12"}}
 ];
