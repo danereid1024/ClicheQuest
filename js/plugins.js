@@ -8,7 +8,5 @@ var $plugins =
 {"name":"EffekseerForRPGMakerMZ_Ex","status":true,"description":"Effekseer Extended plugin v1.70e - 1.05","parameters":{"InstanceMaxCount":"10000","SquareMaxCount":"10000","DistortionEnabled":"false"}},
 {"name":"MenuPlugin","status":true,"description":"Menu Plugin UI change","parameters":{}},
 {"name":"SteamCompatibilityPlugin","status":true,"description":"Steam Compatiblity","parameters":{}},
-{"name":"SteamAchievements","status":false,"description":"","parameters":{}},
-{"name":"SteamLink","status":true,"description":"Link Rpg maker MZ with Steam!","parameters":{}},
-{"name":"SteamLinkCommandsAddon","status":true,"description":"SteamLink Commands Addon","parameters":{"trueVariable":"12"}}
+{"name":"NekoGakuen_SteamworksAPI","status":true,"description":"Steamworks API (Ver 1.1.4)","parameters":{"Translate Patch":"","Steamworks Class":"","Steam AppID":"4454250","Steam API key":"","Check BuyGame Boolean":"true","Check FullScreen":"true","Check Overlay Pause":"false","Check Music Pause":"false","MicroTxn Class":"","SandBox Mode Boolean":"true","MicroTxn Product List":"[\"{\\\"BaseItem Class\\\":\\\"\\\",\\\"Item ID\\\":\\\"1\\\",\\\"Item Language\\\":\\\"en\\\",\\\"Item Currency\\\":\\\"USD\\\",\\\"Item Name\\\":\\\"10 Gold\\\",\\\"Item CartCount\\\":\\\"1\\\",\\\"Item Count\\\":\\\"1\\\",\\\"Item Amount\\\":\\\"1000\\\"}\"]","Orderid Variable":"0","Transid Variable":"0","Result Variable":"0","Leaderboards Class":"","Leaderboards Variable":"0","LeaderboardsName Variable":"0","Error Log Class":"","Error BuyGame Title":"No Games Purchased","Error BuyGame Message":"You have not yet purchased this game on Steam.","Error BuyGame Button":"Buy Game"}}
 ];
